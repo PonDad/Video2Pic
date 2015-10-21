@@ -23,9 +23,10 @@ In addition, photo size (typical ratio of digital camera 3: 2) You can cut out.
 
 ----------
 
- <iframe width="420" height="315" src="https://www.youtube.com/embed/q8Qe-tHpgCI" frameborder="0" allowfullscreen></iframe>
  
 iPhone6Sを利用して４Kフォトを切り出すことも可能です。
+
+Youtube: ["Video 2 Pic" iPhone Tutorial ](https://www.youtube.com/watch?v=q8Qe-tHpgCI)
 
 ----------
 
