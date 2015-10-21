@@ -19,3 +19,17 @@ In addition, photo size (typical ratio of digital camera 3: 2) You can cut out.
 また、写真サイズ（一般的なデジタルカメラの比率3:2）で切り出すことが出来ます。
 
 4K動画から高解像度の写真を切り出すことも可能です。
+
+
+----------
+
+ <iframe width="420" height="315" src="https://www.youtube.com/embed/q8Qe-tHpgCI" frameborder="0" allowfullscreen></iframe>
+ 
+iPhone6Sを利用して４Kフォトを切り出すことも可能です。
+
+----------
+
+
+Web : [Video 2 Pic](http://html5-pondad.net/video2pic/index.html)
+
+Chrome Web Store : [Video 2 Pic - Chrome ウェブストア](https://chrome.google.com/webstore/detail/video-2-pic/nephnekefkfieempmjndilkinlnemghj?utm_source=chrome-ntp-icon)
