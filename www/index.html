@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1.0,user-scalable=no" name=
+  "viewport">
+
+  <title>Video 2 Pic</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/MyFontsWebfontsKit.css">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <h1 class="text-center">Video 2 Pic</h1>
+
+  <article class="article">
+    <h2><i class="fa fa-film fa-fw"></i> Choose Video</h2><span class=
+    "btn btn-default btn-file button"><i class="fa fa-folder-open fa-fw"></i>
+    Choose File <input id="file" type="file"></span>
+
+    <div class="row">
+      <div class="col-xs-12 col-sm-9">
+        <video controls="" id="video" poster="img/poster.png" src=""></video>
+
+        <h2><i class="fa fa-picture-o fa-fw"></i> Take Picture</h2>
+
+        <ul class="list-inline">
+          <li>
+            <div class="button">
+              <button class="btn btn-default button" id="capture"><i class=
+              "fa fa-camera fa-fw"></i> Capture</button> <button class=
+              "btn btn-default button" id="capture2"><i class=
+              "fa fa-camera fa-fw"></i> Capture</button>
+            </div>
+          </li>
+          
+
+          <li>
+            <div class="button btn-group">
+              <button class="btn btn-default" id="4khd" type="button">4K / HD
+              (16:9)</button> <button class="btn btn-default" id="photo" type=
+              "button">Photo (3:2)</button>
+            </div>
+          </li>
+        </ul><img id="output" src="img/poster2.png"> <img id="output2" src=
+        "img/poster3.png">
+
+        <h2><i class="fa fa-download fa-fw"></i> Please Download</h2>
+
+        <div class="button">
+          <a class="btn btn-default button" id="btn-download" target=
+          "_blank" download="video2pic.jpg"><i class="fa fa-download fa-fw"></i> Download</a>
+        </div>
+
+        <div class="button">
+          <a class="btn btn-default button" id="btn-download2" target=
+          "_blank" download="video2pic.jpg"><i class="fa fa-download fa-fw"></i> Download</a>
+        </div>
+        </div>
+
+      <div class="hidden-xs col-sm-3">
+        <div class="btn-group-vertical">
+          <button class="btn btn-default" id="play" type="button"><i class=
+          "fa fa-play fa-fw"></i> Play</button> <button class="btn btn-default"
+          id="pause" type="button"><i class="fa fa-pause fa-fw"></i>
+          Pause</button> <button class="btn btn-default" id="reset" type=
+          "button"><i class="fa fa-stop fa-fw"></i> Reset</button>
+          <button class="btn btn-default" id="skip" type="button"><i class=
+          "fa fa-fast-forward fa-fw"></i> Skip(1s)</button> <button class=
+          "btn btn-default" id="back" type="button"><i class=
+          "fa fa-fast-backward fa-fw"></i> Back(1s)</button>
+        </div>
+
+        <ul class="list-group">
+          <li class="list-group-item" id="now">Current Time：</li>
+
+          <li class="list-group-item" id="all">Total Time：</li>
+        </ul>
+      </div>
+    </div>
+  </article>
+  <hr>
+
+  <footer class="text-center">
+    <small>&#169; 2015 PonDad All Rights Reserved.</small>
+  </footer>
+  <script src="js/jquery.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

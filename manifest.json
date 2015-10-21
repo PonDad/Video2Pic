@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Video 2 Pic",
+    "description": "App to take a photo from the video",
+    "version": "1.0.0",
+    "app": {
+     "background": {
+            "scripts": [
+                "background.js"
+            ]
+        }
+  },
+    "icons": {
+        "128": "icon_128.png",
+        "16": "icon_16.png"
+    },
+    "permissions": [],
+    "short_name": "V2P",
+    "offline_enabled": true,
+    "optional_permissions": [],
+    "externally_connectable": {
+        "ids": [],
+        "matches": [],
+        "accepts_tls_channel_id": false
+    }
+}
