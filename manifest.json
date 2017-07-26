@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Video 2 Pic",
     "description": "App to take a photo from the video",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "app": {
      "background": {
             "scripts": [
